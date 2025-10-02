@@ -1,45 +1,5 @@
- /* STYLING OUR BASIC APP.JSX FILE
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  padding: 40px;
-  background-color: rgb(206, 136, 188);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h2 {
-  color: rgb(84, 60, 84);
-  text-align: center;
-  font-size: 48px;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-.card {
-  border: 1px solid rgb(230, 221, 221);
-  padding: 20px;
-  margin: 10px;
-  background-color: rgb(110, 168, 191);
-  border-radius: 10px;
-  min-height: 100px;
-}
-
-button {
-  border: none;
-  font-size: 30px;
-  background-color: transparent;
-  width: 100%;
-  text-align: right;
-  cursor: pointer;
-} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+ 
+ 
