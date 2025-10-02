@@ -10,6 +10,8 @@ const App = () => {
         <header>
           <h1>Find <span className='text-gradient'>Movies </span>You'll Enjoy Without The Hassel</h1>
         </header>
+
+        <p>Search</p>
       </div>
     </main>
   )
